@@ -1,0 +1,57 @@
+@import './variables';
+
+$image-height: 300px;
+$image-width: 250px;
+
+.wrapper-images{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .image-left-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .image-right-container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .lefttop-img{
+        background: url("../img/portfolio-08.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: $image-height;
+        width: $image-width;
+    }
+
+    .mid-img{
+        background: url("../img/portfolio-09.jpg") no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: $image-width;
+    }
+
+    .righttop-img{
+        background: url("../img/portfolio-07.jpg") no-repeat;
+        background-size: cover;
+        height: $image-height;
+        width: $image-width;
+    }
+
+    .leftbottom-img{
+        background: url("../img/portfolio-05.jpg") no-repeat;
+        background-size: cover;
+        height: $image-height;
+        width: $image-width;
+    }
+    .rightbottom-img{
+        background: url("../img/portfolio-04.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: $image-height;
+        width: $image-width;
+    }
+}

@@ -1,0 +1,58 @@
+@import './variables';
+
+$font-size-design: 36px; 
+
+.services{
+    margin-left: 300px;
+}
+
+.services-h2{
+    font-size: $font-size-design*2;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+
+.wrapper-design-develop{
+    display: flex;
+    flex-direction: column;
+    color: $color-pink;
+    margin-top: 120px;
+    font-size: $font-size-design;
+    font-weight: 400;
+}
+
+.first-line-blue{
+    color: $color-blue;
+}
+
+.hello-img{
+    background: url("../img/about2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 130px;
+    width: 200px;
+    position: relative;
+    left: 501px;
+    bottom: 240px;
+}
+
+.chinese-lookin-whaa{
+    background: url("../img/about1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 260px;
+    width: 400px;
+    position: relative;
+    left: -10px;
+    bottom: 30px;
+    z-index: -2;
+}
+
+.wrapper-items{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.item{
+    margin-right: 30px;
+}

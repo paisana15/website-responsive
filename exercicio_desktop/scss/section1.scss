@@ -1,0 +1,36 @@
+@import './variables';
+
+.container-imgbox {
+  background: url("../img/header.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+}
+.center-fit {
+  max-width: 100vw;
+}
+
+.main-wrapper{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.title-wrapper{
+  font-size: $font-size-title;
+}
+
+.creative-h2{
+  color: $color-pink;
+}
+
+.creative-span{
+  color: $color-blue;
+}
+
+.agency-subtitle{
+  font-size: $font-size-subtitle;
+  font-weight: $font-weight-bold;
+}

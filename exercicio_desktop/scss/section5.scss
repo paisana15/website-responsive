@@ -1,0 +1,51 @@
+@import './variables';
+
+$font-size-design: 36px;
+
+.contact{
+    background-color: $color-grey-third;
+}
+
+.wrapper-contact-map{
+    display:flex;
+}
+
+.wrapper-contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 90px;
+    font-size: $font-size-design/2;
+    width: 50%;
+    max-width: 85%;
+}
+
+.contact-h2{
+    font-size: $font-size-design*2;
+    margin-bottom: 45px;
+    width: 85%;
+}
+
+.para{
+    margin-bottom: 45px;
+}
+
+.name-input, .email-input, .message-input{
+    height: 64px;
+    border: 2px solid $color-grey-light;
+    width: 85%;
+    margin-bottom: 45px;
+    &:focus{
+        border: 2px solid $color-pink;
+    }
+}
+
+.message-button{
+    background-color: $color-pink;
+    height: 64px;
+    width: 200px;
+    color: white;
+    &:hover{
+        background-color: $color-blue;
+    }
+}

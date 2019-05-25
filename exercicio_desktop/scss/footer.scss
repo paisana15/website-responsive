@@ -1,0 +1,39 @@
+@import './variables';
+@import './moonicon.scss';
+
+
+.footer-wrapper{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-title{
+    font-size: 72px;
+    color: white;
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/bgfooter.jpg");
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 60px;
+}
+
+.span-text{
+    color: $color-grey-dark;
+    margin: 30px auto;
+}
+
+.icon-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+  

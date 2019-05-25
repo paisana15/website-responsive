@@ -1,0 +1,31 @@
+@import './variables';
+
+$font-size-design: 36px;
+
+$image-height: 200px;
+$image-width: 200px;
+$padding-items: 15px;
+$opacity-items: 0.4;
+
+.clients{
+    margin-left: 300px;
+}
+
+.clients-h2{
+    font-size: $font-size-design*2;
+}
+
+.wrapper-logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.logo1-img,.logo2-img,.logo3-img,.logo4-img,.logo5-img,.logo6-img,.logo7-img,.logo8-img,{
+    height: $image-height;
+    width: $image-width;
+    padding: $padding-items;
+    opacity: $opacity-items;
+}
